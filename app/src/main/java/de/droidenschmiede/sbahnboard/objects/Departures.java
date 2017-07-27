@@ -8,5 +8,5 @@ import java.util.ArrayList;
  */
 
 public class Departures {
-    ArrayList<Departure> Departure;
+    public ArrayList<Departure> Departure;
 }

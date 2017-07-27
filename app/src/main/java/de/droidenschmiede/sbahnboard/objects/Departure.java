@@ -12,19 +12,19 @@ public class Departure {
     Product Product;
     Notes Notes;
 
-    String name;
+    public String name;
     String type;
     String stop;
     String stopid;
     String stopExtId;
     String prognosisType;
-    String time;
+    public String time;
     String date;
     String track;
     String rtTime;
     String rtDate;
     String rtTrack;
-    String direction;
+    public String direction;
     String trainNumber;
     String trainCategory;
 
