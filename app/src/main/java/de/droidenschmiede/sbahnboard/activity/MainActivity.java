@@ -5,6 +5,7 @@ import android.os.Bundle;
 import android.widget.TextView;
 
 import de.droidenschmiede.sbahnboard.R;
+import de.droidenschmiede.sbahnboard.helper.ApiHelper;
 import de.droidenschmiede.sbahnboard.interfaces.VolleyInterface;
 
 public class MainActivity extends AppCompatActivity implements VolleyInterface {
@@ -14,7 +15,8 @@ public class MainActivity extends AppCompatActivity implements VolleyInterface {
         super.onCreate(savedInstanceState);
         setContentView(R.layout.activity_main);
 
-
+        ApiHelper apiHelper = new ApiHelper();
+        apiHelper.testRequest(this,this);
     }
 
     @Override
