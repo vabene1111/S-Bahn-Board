@@ -7,3 +7,5 @@
 /build
 /captures
 .externalNativeBuild
+
+app/src/main/java/de/droidenschmiede/sbahnboard/config/ApiKey\.java
